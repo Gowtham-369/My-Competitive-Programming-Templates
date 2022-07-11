@@ -62,14 +62,12 @@ public class Main {
          * }
          */
         int tt = reader.nextInt();
-        for(int i=0; i<tt; ++i){
-            int n = reader.nextInt(),m = reader.nextInt();
-            solve(n,m);
+        while(tt-- > 0){
+            solve(reader);
         }
     }
-    public static void solve(int n, int m){
-        long ans = n+m;
-		    System.out.println(ans);
-        
+    public static void solve(FastReader reader){
+        int n = reader.nextInt();
+	System.out.println(n);
     }
 }
